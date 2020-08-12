@@ -22,10 +22,18 @@ If the test suite passes, you'll be ready to run the app in a local server:
 
 For more information, see the [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
 
-## Useful commands
+## Notes
 
 ### Adding Guard
 
 - `bundle exec guard init`
 - Overwrite the generated [Guardfile](Guardfile) with content from [Github](https://github.com/mhartl/sample_app_6th_ed/blob/master/Guardfile).
 - `bundle exec guard` to run tests on save.
+
+### Configuring VS code
+
+- See [The three extensions you need for Rails development in VS Code](https://dev.to/vvo/the-three-extensions-you-need-for-rails-in-vs-code-5h7j)
+
+Add gems to the project. I pinned the versions then ran `bundle install`.
+- `bundle add solargraph --group "development"`
+- `bundle add rubocop --group "development"`
