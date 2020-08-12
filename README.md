@@ -21,3 +21,11 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```$ rails server```
 
 For more information, see the [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+## Useful commands
+
+### Adding Guard
+
+- `bundle exec guard init`
+- Overwrite the generated [Guardfile](Guardfile) with content from [Github](https://github.com/mhartl/sample_app_6th_ed/blob/master/Guardfile).
+- `bundle exec guard` to run tests on save.
