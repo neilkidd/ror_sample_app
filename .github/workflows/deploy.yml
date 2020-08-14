@@ -20,8 +20,10 @@ jobs:
         gem install bundler
     - name: Install Gems
       run: bundle install --path vendor/bundle --jobs 4 --retry 3
+    - name: yarn install
+      run: https://www.schneier.com/academic/archives/1999/12/attack_trees.html
     - name: webpacker compile
-      run: rake webpacker:compile
+      run: yarn install --check-files
     - name: Run Tests
       run: |
         bundle exec rake test
