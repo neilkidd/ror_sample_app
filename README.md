@@ -1,4 +1,6 @@
-# Ruby on Rails Tutorial sample application
+![Test && Deploy](https://github.com/neilkidd/ror_sample_app/workflows/Ruby%20Test%20and%20Deploy/badge.svg)
+
+# Ruby on Rails Tutorial Sample application
 
 This is the sample application for [*Ruby on Rails Tutorial:Learn Web Development with Rails*](https://www.railstutorial.org/) (6th Edition) by [Michael Hartl](https://www.michaelhartl.com/).
 
