@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/rails/sprockets-rails.git
+  remote: https://github.com/rails/sprockets-rails.git
   revision: c269f5e01fdffa5c41350e855183d94ff33d318a
   specs:
     sprockets-rails (3.2.1)
