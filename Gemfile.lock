@@ -69,7 +69,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     ansi (1.5.0)
     ast (2.4.1)
-    autoprefixer-rails (9.8.6.1)
+    autoprefixer-rails (9.8.6.2)
       execjs
     backport (1.1.2)
     benchmark (0.1.0)

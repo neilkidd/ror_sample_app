@@ -14,8 +14,9 @@ gem 'bootsnap',       '1.4.6', require: false
 gem "sprockets-rails", git: 'https://github.com/rails/sprockets-rails.git'
 
 group :development, :test do
-  gem 'sqlite3', '1.4.2'
-  gem 'byebug',  '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
+  # gem "standardrb", '1.0.0'
+  gem 'sqlite3',    '1.4.2'
+  gem 'byebug',     '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
