@@ -36,6 +36,26 @@ For more information, see the [*Ruby on Rails Tutorial* book](https://www.railst
 
 - `rails test`
 - `rails test:integration`
+- `rails test:models`
+
+### Migrations
+
+- Create users `rails generate model User name:string email:string`
+- Apply `rails db:migrate`
+- Rollback the last migration `rails db:rollback`
+
+### Rails Console
+
+- `--sandbox` arg rolls back changes `rails console --sandbox`
+- Create a new thing: `thing = Class.new(attr:value, attr:value ...)`
+  - typing `thing` will log it
+- Persist to db with `thing.save`
+- Delete from db with `thing.destroy`
+- Update with simple assignments and `.save` combinations
+  - Update object and save to db in one cmd `thing.update(attr:value)`
+- `thing.reload.attr`, AKA refresh
+- `Thing.first`
+- `Thing.all`
 
 ### Configuring VS code
 
@@ -44,3 +64,7 @@ For more information, see the [*Ruby on Rails Tutorial* book](https://www.railst
 Add gems to the project. I pinned the versions then ran `bundle install`.
 - `bundle add solargraph --group "development"`
 - `bundle add rubocop --group "development"`
+
+### TODO
+
+- Continue from section 6.2.1 of the book.
