@@ -32,6 +32,11 @@ For more information, see the [*Ruby on Rails Tutorial* book](https://www.railst
 - Overwrite the generated [Guardfile](Guardfile) with content from [Github](https://github.com/mhartl/sample_app_6th_ed/blob/master/Guardfile).
 - `bundle exec guard` to run tests on save.
 
+### Running Tests
+
+- `rails test`
+- `rails test:integration`
+
 ### Configuring VS code
 
 - See [The three extensions you need for Rails development in VS Code](https://dev.to/vvo/the-three-extensions-you-need-for-rails-in-vs-code-5h7j)
