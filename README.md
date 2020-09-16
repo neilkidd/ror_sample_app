@@ -67,4 +67,4 @@ Add gems to the project. I pinned the versions then ran `bundle install`.
 
 ### TODO
 
-- Continue from listing 6.3 Adding a Secure Password.
+- Continue from Chapter 7.
