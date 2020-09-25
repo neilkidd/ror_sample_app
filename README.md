@@ -67,4 +67,4 @@ Add gems to the project. I pinned the versions then ran `bundle install`.
 
 ### TODO
 
-- Continue from Chapter 7.2 Signup Form
+- Continue from Chapter 7.4 New users
