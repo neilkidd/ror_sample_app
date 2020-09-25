@@ -67,4 +67,4 @@ Add gems to the project. I pinned the versions then ran `bundle install`.
 
 ### TODO
 
-- Continue from Chapter 7.4.4 Test for a valid submission
+- Continue from Chapter 7.5 Deploy it
